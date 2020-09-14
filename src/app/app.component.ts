@@ -23,7 +23,6 @@ public value;
     @ViewChild('dropdown') public dropdown: DropDownTreeComponent
       // validates NumericTextBox while value changes
     public onChange(args){
-        debugger;
         console.log(args);
     }
  public data: { [key: string]: Object }[] = [
